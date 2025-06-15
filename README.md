@@ -1745,3 +1745,14 @@ Benefícios do Uso do Yii Framework:
 2. **Flexibilidade**: A arquitetura componentizada permite a fácil integração e personalização.
 3. **Alta Performance**: Projetado para ser rápido, o Yii é uma excelente escolha para aplicações de alto desempenho.
 4. **Segurança**: Funcionalidades embutidas de segurança ajudam a proteger a aplicação contra ameaças comuns.
+
+# 🧪 [PHP] TDD, BDD e DDD
+<img src="https://github.com/user-attachments/assets/395a764f-78f0-4a2a-840e-ddb562c1c8c3" align="right" height="77">
+
+Em PHP, é perfeitamente possível aplicar os conceitos de TDD (Test-Driven Development), BDD (Behavior-Driven Development) e DDD (Domain-Driven Design), pois a linguagem tem maturidade suficiente, suporte a boas práticas, e uma vasta gama de ferramentas voltadas para testes, organização de domínio e escrita de código orientado ao comportamento. 
+
+No TDD, você escreve testes antes mesmo do código de produção. Em PHP, isso é geralmente feito com frameworks como **PHPUnit**, que permite estruturar testes unitários de maneira robusta, favorecendo a modularidade e o design limpo. A prática do TDD ajuda a guiar o design do código, promove a confiança em mudanças futuras e é altamente adotada em projetos profissionais. 
+
+Já no BDD, a abordagem se foca no comportamento esperado do sistema, com especificações escritas em linguagem natural, geralmente usando Gherkin. Em PHP, a ferramenta mais conhecida para isso é o **Behat**, que permite descrever funcionalidades em termos compreensíveis por todas as partes interessadas do projeto. O BDD complementa o TDD, pois os cenários de comportamento se transformam em testes automatizados que validam se o software está fazendo o que foi especificado. 
+
+E, por fim, o DDD trata da modelagem do domínio da aplicação de forma centrada nos conceitos de negócio. Em PHP, DDD é aplicado estruturando o projeto em camadas como Domínio, Aplicação, Infraestrutura e Interface de Usuário. Você separa entidades, objetos de valor (Value Objects), agregados, repositórios e serviços de domínio, respeitando as fronteiras do domínio e evitando acoplamentos entre camadas. Frameworks modernos como Symfony e Laravel permitem essa organização por pastas, com suporte a injeção de dependência, eventos de domínio, e uso de containers de serviço, o que facilita a implementação dos conceitos do DDD. Assim, em um ecossistema PHP bem arquitetado, TDD cuida da qualidade e evolução do código, BDD conecta os requisitos ao comportamento real da aplicação, e DDD garante que a modelagem reflita fielmente as regras e complexidades do domínio do negócio.
